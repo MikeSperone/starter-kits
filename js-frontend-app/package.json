@@ -1,0 +1,37 @@
+{
+  "name": "New Project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  ],
+  "author": "Michael Sperone",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/register": "^7.13.16",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "chai": "^4.3.4",
+    "eslint": "^7.25.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "mocha": "^8.3.2",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "leasot": "^12.0.0",
+    "lint-staged": "^10.5.4"
+  }
+}

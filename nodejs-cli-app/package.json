@@ -1,0 +1,22 @@
+{
+  "name": "new-nodejs-cli-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Sperone",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "chai": "^4.3.4",
+    "concurrently": "^6.0.2",
+    "consola": "^2.15.3",
+    "eslint": "^7.25.0",
+    "husky": "^6.0.0",
+    "leasot": "^12.0.0",
+    "lint-staged": "^10.5.4",
+    "mocha": "^8.3.2"
+  }
+}

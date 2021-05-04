@@ -1,0 +1,7 @@
+*.swp
+*.swp
+
+node_modules
+build
+dist
+tags
