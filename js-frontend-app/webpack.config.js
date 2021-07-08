@@ -9,7 +9,7 @@ module.exports = {
     mode: process.env.NODE_ENV,
     entry: "./src/index.js",
     plugins: [
-        new HtmlWebpackPlugin({ title: "WebSynth" }),
+        new HtmlWebpackPlugin({ title: "Mike Sperone" }),
         new MiniCssExtractPlugin(),
     ],
     module: {
